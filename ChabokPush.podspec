@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name         = 'ChabokPush'
 s.module_name  = 'AdpPushClient'
-s.version      = '2.0.1'
+s.version='2.1.0'
 s.summary      = 'Connect your users with Chabok realtime messaging or send push notifications to them.'
 s.description  = <<-DESC
 Chabok Push provides your app with in-app messaging and easy geo-location features.
@@ -17,7 +17,7 @@ Copyright 2019 - present Chabok. All rights reserved.
 LICENSE
 }
 s.author       = { 'Chabok.io' => 'info@chabok.io' }
-s.source = { :http => 'https://github.com/chabok-io/chabok-client-ios/releases/download/'+ s.version.to_s+'/ChabokFramework.zip' }
+s.version='2.1.0'
 
 s.platform = :ios
 s.ios.deployment_target = '7.0'
