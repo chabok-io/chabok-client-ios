@@ -17,7 +17,7 @@ Copyright 2019 - present Chabok. All rights reserved.
 LICENSE
 }
 s.author       = { 'Chabok.io' => 'info@chabok.io' }
-s.version='2.1.0'
+s.source = { :http => 'https://github.com/chabok-io/chabok-client-ios/raw/master/ChabokFramework.zip' }
 
 s.platform = :ios
 s.ios.deployment_target = '7.0'
